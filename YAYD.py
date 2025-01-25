@@ -7,7 +7,6 @@ import logging
 from PyQt5 import QtWidgets, QtCore
 from datetime import datetime
 
-
 class QTextEditLogger(logging.Handler):
     def __init__(self, text_edit):
         super().__init__()
